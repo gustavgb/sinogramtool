@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sinogram maker</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+
+    <p>Vælg projektioner</p>
+    <input type="file" name="file" id="file" multiple accept="image/png" />
+    <br />
+    <br />
+    <p id="wait" style="display: none">Tænker, vent et øjeblik</p>
+    <div id="sinogram" style="display: none">
+      <p>Sinogram:</p>
+      <canvas id="can"></canvas>
+    </div>
+  </body>
+</html>
